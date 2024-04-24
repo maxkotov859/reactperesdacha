@@ -1,0 +1,30 @@
+.container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 300px 500px;
+}
+
+.img {
+  grid-column: 1;
+  grid-row: 1/2;
+}
+
+.h3 {
+  color: #22356F;
+  grid-row: 1;
+  grid-column: 2;
+  font-size: 36px;
+  font-weight: 400;
+  margin-top: 170px;
+  font-style: italic;
+}
+
+.text {
+  font-style: italic;
+  color: #22356F;
+  grid-column: 2;
+  grid-row: 2;
+  font-size: 36px;
+  font-weight: 400;
+  max-width: 600px;
+}
